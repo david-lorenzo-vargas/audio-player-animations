@@ -1,0 +1,221 @@
+body {
+  background-color: rgb(101, 115, 126);
+}
+
+.audio-spinners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(100%);
+}
+
+.spinner-four {
+  width: 150px;
+  height: 120px;
+  margin: 40px 10px;
+
+  &__container {
+    min-height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E2433;
+    border-radius: 30px;
+  }
+
+  &__item {
+    background-color: #b2ff59;
+    border-radius: 25px;
+    margin: 1px;
+    width: 10px;
+  }
+
+  &__item-one {
+    height: 75px;
+    animation: one 1.2s infinite;
+  }
+
+  @keyframes one {
+    50% {
+      height: 40px;
+    }
+  }
+
+  &__item-two {
+    height: 40px;
+    animation: two 1.2s infinite;
+    // animation-delay: 200ms;
+  }
+
+  @keyframes two {
+    50% { height: 80px;
+    }
+  }
+
+  &__item-three {
+    height: 90px;
+    animation: three 1.2s infinite;
+    animation-delay: 900ms;
+  }
+
+  @keyframes three {
+    50% {
+      height: 30px;
+    }
+  }
+
+  &__item-four {
+    height: 50px;
+    animation: four 1.2s infinite;
+    animation-delay: 1.5s;
+  }
+
+  @keyframes four {
+    50% {
+      height: 60px;
+    }
+  }
+
+  &__item-five {
+    height: 20px;
+    animation: five 1.2s infinite;
+    animation-delay: 100ms;
+  }
+
+  @keyframes five {
+    50% {
+      height: 70px;
+    }
+  }
+
+  &__item-six {
+    height: 70px;
+    animation: six 1.2s infinite;
+    animation-delay: 400ms;
+  }
+
+  @keyframes six {
+    50% {
+      height: 40px;
+    }
+  }
+}
+
+.spinner-five {
+  width: 150px;
+  height: 120px;
+  margin: 40px 10px;
+
+  &__container {
+    min-height: 100%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #0E2433;
+    border-radius: 30px;
+  }
+
+  &__item {
+    background-color: #b2ff59;
+    margin: 1px;
+    width: 5px;
+    height: 0;
+  }
+
+  &__item--one {
+    animation: upanddown-one 2s infinite;
+  }
+
+
+
+  &__item--two {
+    animation: upanddown-two 2s infinite;
+    animation-delay: 100ms;
+  }
+
+
+
+   &__item--three {
+    animation: upanddown-three 2s infinite;
+    animation-delay: 150ms;
+  }
+
+
+
+  &__item--four {
+    animation: upanddown-four 2s infinite;
+    animation-delay: 150ms;
+  }
+
+
+
+  &__item--five {
+    animation: upanddown-four 2s infinite;
+  }
+
+  &__item--six {
+    animation: upanddown-one 2s infinite;
+    animation-delay: 300ms;
+  }
+
+  &__item--seven {
+    animation: upanddown-three 2s infinite;
+    animation-delay: 300ms;
+  }
+
+  &__item--eight {
+    animation: upanddown-two 2s infinite;
+    animation-delay: 300ms;
+  }
+
+  &__item--nine {
+    animation: upanddown-one 2s infinite;
+    animation-delay: 700ms;
+  }
+
+  &__item--ten {
+    animation: upanddown-four 2s infinite;
+    animation-delay: 750ms;
+  }
+
+  &__item--eleven {
+    animation: upanddown-three 2s infinite;
+    animation-delay: 700ms;
+  }
+
+  &__item--twelve {
+    animation: upanddown-one 2s infinite;
+    animation-delay: 800ms;
+  }
+
+  &__item--therteen {
+    animation: upanddown-two 2s infinite;
+    animation-delay: 800ms;
+  }
+
+  &__item--fourteen {
+    animation: upanddown-one 2s infinite;
+    animation-delay: 900ms;
+  }
+
+  &__item--fifteen {
+    animation: upanddown-three 2s infinite;
+    animation-delay: 500ms;
+  }
+
+  @keyframes upanddown-one {
+    50% { height: 100px; }
+  }
+
+  @keyframes upanddown-two {
+    50% { height: 70px; }
+  }
+
+  @keyframes upanddown-three {
+    50% { height: 30px; }
+  }
+
+  @keyframes upanddown-four {
+    50% { height: 80px; }
+  }
+}
